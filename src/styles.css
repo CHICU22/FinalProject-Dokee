@@ -109,3 +109,58 @@ body {
     line-height: 44px;
     color: white;
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+#tutorial-1>p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+
+    border: 1px solid #000000;
+}
+
+#tutorial-1>i{
+    color: #FFFFFF;
+}
+
+#logo-small{
+    position: absolute;
+    width: 70.64px;
+    height: 47px;
+    top: 8px;
+    right: 16px;
+}
+
+#skip-tutorial>button{
+    background: none;
+	color: #FFABAB;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    font: var(--font);
+}
