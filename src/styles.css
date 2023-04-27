@@ -164,6 +164,67 @@ body {
     font: var(--font);
 }
 
+#choose-option{
+    display: flex;
+    flex-direction: row;
+}
+
 #questionaire{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#second-box{
+    padding: 20px;
+}
+
+#second-box>p1{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+#traveller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: white;
+    padding: 20px;
+}
+
+#traveller>p2{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+#local{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    border-style: solid;
+    padding: 20px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#next>button{
+    background: none;
+	color: white;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    font: var(--font);
 }
