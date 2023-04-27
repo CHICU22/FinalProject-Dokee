@@ -133,7 +133,7 @@ body {
 
 #tutorial-1>p{
     font-family: 'Inter';
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -148,7 +148,6 @@ body {
 }
 
 #logo-small{
-    position: absolute;
     width: 70.64px;
     height: 47px;
     top: 8px;
@@ -163,4 +162,8 @@ body {
 	cursor: pointer;
 	outline: inherit;
     font: var(--font);
+}
+
+#questionaire{
+    display: flex;
 }
