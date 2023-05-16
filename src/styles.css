@@ -42,7 +42,6 @@ body {
 	padding: 0;
 	cursor: pointer;
 	outline: inherit;
-    font: var(--font);
 }
 
 #titles{
@@ -77,7 +76,6 @@ body {
     height: 61px;
     padding: 14px 28px;
     cursor: pointer;
-    font: var(--font);
 }
 
 #login-button>button{
@@ -85,7 +83,6 @@ body {
 	color: white;
 	border: none;
 	padding: 0;
-	font: inherit;
 	cursor: pointer;
 	outline: inherit;
 }
@@ -94,6 +91,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#optional-signup>p1{
+    color: #FFABAB;
+    font: var(--font);
+}
+
+#optional-signup>#icons{
+    padding: 20px;
+    color: white;
+    width: 100%;
+    align-content: center;
+    height: 50px;
 }
 
 #tutorial-1{
@@ -227,4 +237,24 @@ body {
 	cursor: pointer;
 	outline: inherit;
     font: var(--font);
+}
+
+#sign-up{
+    width: 70%;
+}
+#sign-up>input{
+    padding: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+#sign-up>input:focus{
+    background: none;
+}
+
+#sign-up>::placeholder{
+    color: #FFABAB;
+    text-align: center;
 }
