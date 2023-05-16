@@ -109,15 +109,18 @@ body {
 #tutorial-1{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-#tutorial-1>p1{
-    font-family: var(--font);
+#tutorial-1>p2{
+    width: 282px;
+    text-align: start;
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 44px;
-    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFABAB;
 }
 
 .swiper {
@@ -141,27 +144,42 @@ body {
     object-fit: cover;
   }
 
+#container-logos{
+    display: flex;
+}
+
+#container-logos>i{
+    color: white;
+    margin-top: 40px;
+}
+
 #tutorial-1>p{
     font-family: 'Inter';
     /* font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
-
     color: #FFFFFF;
-
-    border: 1px solid #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: start;
+    width: 270px;
 }
 
 #tutorial-1>i{
     color: #FFFFFF;
+    margin-bottom: 50px;
 }
 
 #logo-small{
     width: 70.64px;
     height: 47px;
-    top: 8px;
-    right: 16px;
+    margin-top: 40px;
+    margin-left: 75%;
+}
+
+#skip-tutorial{
+    margin-bottom: 50px;
 }
 
 #skip-tutorial>button{
