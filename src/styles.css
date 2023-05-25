@@ -197,6 +197,11 @@ body {
     flex-direction: row;
 }
 
+#choose-option-2{
+    display: flex;
+    flex-direction: row;
+}
+
 #questionaire{
     display: flex;
     flex-direction: column;
@@ -216,7 +221,7 @@ body {
     color: #FFFFFF;
 }
 
-#traveller{
+#age-box-1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -227,16 +232,17 @@ body {
     padding: 20px;
 }
 
-#traveller>p2{
+#age-box-1>p2{
     font-family: var(--font);
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
+    color: white;
 }
 
-#local{
+#age-box-2{
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -246,6 +252,59 @@ body {
     border-radius: 5px;
     border-color: white;
 }
+
+#age-box-2>p2{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+}
+
+#age-box-3{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    border-style: solid;
+    padding: 20px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#age-box-3>p2{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+}
+
+#age-box-4{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    border-style: solid;
+    padding: 20px;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#age-box-4>p2{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: white;
+}
+
 
 #next>button{
     background: none;
@@ -276,3 +335,8 @@ body {
     color: #FFABAB;
     text-align: center;
 }
+
+#box-messages{
+    color: white;
+}
+
