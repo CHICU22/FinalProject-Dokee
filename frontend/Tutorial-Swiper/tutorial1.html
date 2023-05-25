@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/a8df0f6591.js" crossorigin="anonymous"></script>
+
+    <title>dakee.</title>
+</head>
+<body>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img id="logo-small" src="../icons/logo_small.svg" alt="Logo Small">
+            <div id="tutorial-1">
+                <p>
+                  Hi, Jane!<br>
+                  Here’s a short<br>
+                  tutorial for you:
+                </p>
+              <i class="fa-solid fa-user-group fa-3x"></i>
+              <p2>Dakee was created to give the real, 
+                non-touristic experience in a visited city.
+                
+                Based on your interests, we connect
+                Travellers and Locals to exchange ideas
+                and give tips on what is actually worth
+                to do and see. No tourist cliché! </p2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div id="container-logos">
+              <a href="javascript:history.back()" id="back-button">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+              </a>
+              <img id="logo-small" src="../icons/logo_small.svg" alt="Logo Small">
+            </div>
+            <div id="tutorial-1">
+              <p>
+                Who is<br>
+                a Traveller?
+              </p>
+              <i class="fa-sharp fa-solid fa-plane fa-3x"></i>
+              <p2>A Traveller looks for a matching Local 
+                personto get tips via chat on what to see, 
+                visit or do in a specific city.
+                
+                He or she can later give the avaliations for
+                the tips given. </p2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img id="logo-small" src="../icons/logo_small.svg" alt="Logo Small">
+            <div id="tutorial-1">
+              <p>
+                Who is<br>
+                a Local?
+              </p>
+              <i class="fa-solid fa-house fa-3x"></i>
+              <p2>A Local is a person who lives in a city
+                and wants to give some tips to visitors. 
+                
+                He or she recieves later avaliations from
+                the Travellers. Each avaliation has a point 
+                value that can be exchanges for many 
+                rewards and discounts from our Partners. </p2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img id="logo-small" src="../icons/logo_small.svg" alt="Logo Small">
+            <div id="tutorial-1">
+              <p>
+                Be both!
+              </p>
+              <i class="fa-regular fa-face-laugh-beam fa-3x"></i>
+              <p2>As a Dakee user, you can choose to be
+                both Traveller and Local. 
+                
+                Gain discounts by giving advices to visitors 
+                and get the unforgettable local experience
+                while travelling! </p2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img id="logo-small" src="../icons/logo_small.svg" alt="Logo Small">
+            <div id="tutorial-1">
+              <p>
+                Done!<br>
+                Let us ask five 
+                quick questions
+                before we start.
+              </p>
+              <p2>As a Dakee user, you are both<br> 
+                a Traveller and a Local. <br>
+
+                Gain discounts by giving advices to visitors and get the unforgettable local experience while travelling!
+              </p2>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div id="skip-tutorial">
+        <button onclick="window.location.href='../Questionaire-Pages/questionaire2.html'" >Skip tutorial</button>
+      </div>
+    
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html> 
