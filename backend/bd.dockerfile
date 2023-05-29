@@ -1,6 +1,6 @@
 FROM tiangolo/uvicorn-gunicorn-fastapi:python3.8
 
-COPY ./app /app
+COPY .backend/app backend/app
 
 RUN pip install SQLAlchemy
 
